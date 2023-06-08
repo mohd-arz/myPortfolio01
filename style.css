@@ -1,0 +1,160 @@
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* Header */
+    .header{
+        background-color: #1F2937;
+        border:solid;
+        padding: 0 15vw;
+        height: 400px;
+    }
+    /* Heading */
+    .heading{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 16px 0 16px;
+    }
+    .heading > h2{
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.5rem;
+        margin:0px;    
+    }
+    .social-links{
+        display: flex;
+        list-style-type: none;
+        gap:8px;
+       
+    }
+    .social-links a{
+        text-decoration: none;
+        color: #e5e7eb;
+    }
+    .social-links a:hover{
+        border-radius: 8px;
+        background-color: grey;
+    }
+    a > i{
+        margin: 5px;
+    }
+    /* Main */
+    .main{
+        color: white;
+        display: flex;
+        padding: 50px 16px;
+
+    }
+    .main > img{
+        border-radius: 5px;
+    }
+    .description{
+        padding-left: 32px;
+    }
+    .description > h1{
+        margin-bottom: 16px;
+        font-size: 2.5rem;
+    }
+    .description > p{
+        padding : 8px 0;
+        font-size: large;
+    }
+    .description > a{
+        display: inline-block;
+        padding: 8px 16px;
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+        border-radius: 8px;
+        background-color: #696969;
+    }
+    a:hover{
+        background-color: rgb(111, 111, 111);
+    }
+
+/* Resources */
+.resources{
+    padding: 0 15vw;
+    height: 300px;
+    text-align: center;
+}
+.resource-content{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+    margin-top: 16px;
+    
+}
+.technical-heading{
+    margin-top: 32px;
+    padding-bottom: 16px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.resource-content span{
+    display: block;
+    color: grey;
+}
+.resource-content img{
+    border:1px solid;
+    height: 150px;
+    border-radius: 8px;
+}
+
+/* About Me */
+.about-me{
+    height: 250px;
+    background-color: #e5e7eb;
+    padding: 0 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-me > h2{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.about-me >p{
+    padding:0 16px;
+    font-size: large;
+    text-align: justify;
+}
+
+/* Contact */
+.contact{
+    padding: 50px;
+}
+.contact-box{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: 	grey;
+    border-radius: 8px;
+}
+.details > h2{
+    margin-bottom:16px;
+}
+.contact-button{
+    align-self: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    border: solid 1px white;
+    background-color: grey;
+}
+
+/* Footer */
+.footer{
+    color:white;
+    padding: 16px;
+    text-align: center;
+    background-color: #1F2937;
+}
