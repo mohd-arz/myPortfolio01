@@ -70,7 +70,7 @@
         border-radius: 8px;
         background-color: #696969;
     }
-    a:hover{
+    .description > a:hover{
         background-color: rgb(111, 111, 111);
     }
 
@@ -157,4 +157,40 @@
     padding: 16px;
     text-align: center;
     background-color: #1F2937;
+}
+
+/* Project */
+
+.projects{
+    padding: 0 15vw;
+    height: 350px;
+    text-align: center;
+}
+.projects-heading{
+    margin-top: 32px;
+    padding-bottom: 16px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.projects-content{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+    margin-top: 16px;
+}
+.projects-content span{
+    display: block;
+    color: grey;
+}
+.projects-content img{
+    border:1px solid;
+    height: 150px;
+    border-radius: 8px;
+}
+.projects a:visited{
+    border: none;
+
+}
+.projects  img{
+    border: none;
 }
